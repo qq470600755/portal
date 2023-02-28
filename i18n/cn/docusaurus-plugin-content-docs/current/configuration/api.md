@@ -112,3 +112,4 @@ type RedisConf struct {
     Pass string `json:",optional"` // redis密码
 }
 ```
+注意：这里 RedisConf的配置 和 缓存的 CacheRedis 是两个东西
